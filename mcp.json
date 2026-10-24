@@ -1,0 +1,34 @@
+{
+  "name": "larry-fink-ai-mcp",
+  "version": "1.0.0",
+  "description": "Larry Fink AI Model Context Protocol Server for Autonomous Institutional Capital Allocation, Aladdin Risk Intelligence & Fiduciary Governance Protocol",
+  "tools": [
+    {
+      "name": "audit_portfolio_risk_scenario",
+      "description": "Audit complex global multi-asset portfolios against systemic liquidity shocks, macro volatility, and counterparty risks",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "portfolio_composition": { "type": "string" },
+          "stress_scenario": { "type": "string" },
+          "risk_metric": { "type": "string" }
+        },
+        "required": ["portfolio_composition"]
+      }
+    },
+    {
+      "name": "disburse_rwa_liquidity_grant",
+      "description": "Trigger automated micro-escrow releases for verified on-chain RWA tokenization pilots, sovereign treasury infrastructure, and institutional liquidity facilities",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
